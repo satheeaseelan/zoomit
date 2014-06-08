@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=8;" />
+        <title>Zoomit examples</title>
+        <link href="css/jquery.zoomit.css" rel="stylesheet">
+        <style type="text/css">
+        	div{ padding:10px; float:left; border:2px solid red;}
+        </style>
+    </head>
+    <body>
+       <div class="zoomable">
+    		click to zoom it  	
+       </div>
+    </body>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.zoomit.js"></script>
+    <script>
+		$(document).ready(function(e) {
+			$('.zoomable').zoomable();
+		});
+    </script>
+</html>
